@@ -1,0 +1,13 @@
+{
+  "css.validate": false,
+  "css.format.enable": true,
+  "css.format.newlineBetweenRules": true,
+  "css.format.newlineBetweenSelectors": true,
+  "css.format.spaceAroundSelectorSeparator": true,
+  "cSpell.ignoreWords": [
+    "chatgpt"
+  ],
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  }
+}
