@@ -4,10 +4,25 @@
   "css.format.newlineBetweenRules": true,
   "css.format.newlineBetweenSelectors": true,
   "css.format.spaceAroundSelectorSeparator": true,
-  "cSpell.ignoreWords": [
-    "chatgpt"
-  ],
+  "cSpell.ignoreWords": ["chatgpt"],
   "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "html-css-class-completion.CSSLanguages": ["css", "sass", "scss"],
+  "html.suggest.html5": true,
+  "html.autoClosingTags": true,
+  "editor.linkedEditing": true,
+  "[html]": {
+    "editor.foldingStrategy": "indentation",
+    "editor.indentSize": "tabSize",
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "html.format.enable": true,
+  "html.format.indentHandlebars": true,
+  "html.format.indentInnerHtml": true,
+  "html.format.wrapAttributesIndentSize": 2,
+  "html.format.extraLiners": "head, body, /html",
+  "emmet.includeLanguages": {
+    "javascript": "html"
   }
 }
